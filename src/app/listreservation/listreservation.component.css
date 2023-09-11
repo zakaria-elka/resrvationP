@@ -1,0 +1,36 @@
+.TableauDeBord{
+
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color:  #ecf0f1 ;
+  height: 550px;
+  border-radius: 5px;
+  display: flex;
+
+
+
+  }
+
+  .Vnav{
+
+    width: 20%;
+    background-color: black;
+    height: 100%;
+
+    }
+
+
+    @media screen and (max-width:700px) {
+
+      .Vnav{
+
+       width: 50%;
+       z-index: 999;
+
+
+      }
+
+    }
+
